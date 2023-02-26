@@ -44,7 +44,7 @@ function FirstHookForm() {
   });
 
   const submitHandler = (values) => {
-    // console.log(values);
+    console.log(values);
     reset();
   };
 
