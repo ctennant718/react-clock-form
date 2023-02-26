@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Clock from "./Clock";
 
 function ClockApp() {
-  const [date, setDate] = useState(new Date(), { locale });
+  const [date, setDate] = useState(new Date());
   useEffect(() => {
     const timer = setInterval(() => {
       setDate(new Date());
@@ -13,7 +13,7 @@ function ClockApp() {
   }, []);
   return (
     <div>
-      <Clock {...props} date={date} />
+      <Clock date={date} />
     </div>
   );
 }

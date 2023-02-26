@@ -1,5 +1,5 @@
 import React from "react";
-import ClockApp from "../components/Clock";
+import ClockApp from "../components/ClockApp";
 
 function Home() {
   return (
