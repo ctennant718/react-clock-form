@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  margin-inline: 0.5em;
+}
+
+.form-row {
+  margin-block-end: 1em;
+}
+
+.controls {
+  margin-block-start: 2em;
+}
+
+.field-name {
+  margin-inline-end: 0.5em;
+}
+
+.error {
+  margin-inline-start: 1em;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-inline: 1em;
+}
